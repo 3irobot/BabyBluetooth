@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files  = "Classes", "Classes/objc/*.{h,m}"
+  s.resources     = 'Classes/*.{png,bundle,xcprivacy}'
 
 end
